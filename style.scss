@@ -14,17 +14,42 @@ $ctaColor: #ed1a2e;
 
 
 .container {
-    .nav{
-
-        border: 1px solid red;
-        list-style: none;
-        
-
-
-        .item {
-            color: $couleur-txt-base;
-            display: inline-block;
+    width: $container-width;
+    margin: auto;
+    border: 1px solid purple;
+    .top-nav {
+        background-color: salmon;
+        .top-nav-left {
+            img {
+                height:50px;
+            }
         }
 
+        .top-nav-center{
+            background-color: seagreen;
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: start;
+                li {
+                    color: white;
+                    padding: 7px;
+                    border: 1px solid purple;
+
+                }
+
+
+            }
+        }
     }
+
+
+
+
+    
+
+    
+
+
+    
 }
