@@ -1,5 +1,30 @@
 $couleur-txt-base: salmon;
+$container-width: 1280px;
+$gutter:32px;
+$fontBody: 'Work Sans',
+sans-serif;
+$sizeFontBody: 12px;
+$fontTitle: 'Playfair Display',
+serif;
+$sizeFontTitle:30px;
+$mockup-width: 1440px;
+$ctaColor: #ed1a2e;
 
-.item {
-    color:$couleur-txt-base;
+
+
+
+.container {
+    .nav{
+
+        border: 1px solid red;
+        list-style: none;
+        
+
+
+        .item {
+            color: $couleur-txt-base;
+            display: inline-block;
+        }
+
+    }
 }

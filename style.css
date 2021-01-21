@@ -1,4 +1,10 @@
-.item {
+.container .nav {
+  border: 1px solid red;
+  list-style: none;
+}
+
+.container .nav .item {
   color: salmon;
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */
