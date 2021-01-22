@@ -1,6 +1,6 @@
 .top-nav {
     display: grid;
-    grid-template-columns: 25% 25% 50%;
+    grid-template-columns: 100%;
     grid-column-gap: 18px;
 
 }

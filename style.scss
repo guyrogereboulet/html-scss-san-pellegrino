@@ -9,47 +9,37 @@ serif;
 $sizeFontTitle:30px;
 $mockup-width: 1440px;
 $ctaColor: #ed1a2e;
+$wrapper-color-top:#060c3e;
 
 
 
+.wrapper {
+    max-width:$mockup-width;
+    background-color: $wrapper-color-top;
 
-.container {
-    width: $container-width;
-    margin: auto;
-    border: 1px solid purple;
-    .top-nav {
-        background-color: salmon;
-        .top-nav-left {
+    .container {
+        max-width: $container-width;
+        margin: auto;
+        border: 1px solid purple;
+
+        .top-nav {
+            background-color: salmon;
+
             img {
-                height:50px;
+                height: 50px;
             }
+
         }
 
-        .top-nav-center{
-            background-color: seagreen;
-            ul {
-                list-style: none;
-                display: flex;
-                justify-content: start;
-                li {
-                    color: white;
-                    padding: 7px;
-                    border: 1px solid purple;
-
-                }
 
 
-            }
-        }
+
+
+
+
+
+
+
     }
 
-
-
-
-    
-
-    
-
-
-    
 }
