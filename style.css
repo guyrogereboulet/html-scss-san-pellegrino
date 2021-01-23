@@ -1,6 +1,7 @@
 .wrapper {
   max-width: 1440px;
-  background-color: #060c3e;
+  background-color: yellow;
+  margin: auto;
 }
 
 .wrapper .container {
@@ -15,5 +16,163 @@
 
 .wrapper .container .top-nav img {
   height: 50px;
+}
+
+.wrapper .container .menu .menu-list li {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.wrapper-bottom {
+  border: 1px solid black;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.wrapper-bottom .menu-bottom .menu-list-bottom li {
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.wrapper-bottom .main .first-section .first-section-left ul {
+  list-style: none;
+}
+
+.wrapper-bottom .main .first-section .first-section-left ul li:nth-child(1) {
+  color: #ed1a2e;
+}
+
+.wrapper-bottom .main .first-section .first-section-left ul li:nth-child(2) {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-top: 5%;
+}
+
+.wrapper-bottom .main .first-section .first-section-right .testo {
+  margin-top: 5%;
+}
+
+.wrapper-bottom .main .third-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6fr 6fr;
+      grid-template-columns: 6fr 6fr;
+}
+
+.wrapper-bottom .main .third-section .third-section-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper-bottom .main .third-section .third-section-left ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: chartreuse;
+}
+
+.wrapper-bottom .main .third-section .third-section-left ul li:nth-child(1) {
+  color: #ed1a2e;
+}
+
+.wrapper-bottom .main .third-section .third-section-left ul li:nth-child(2) {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.wrapper-bottom .main .third-section .third-section-left ul li:nth-child(3) {
+  color: black;
+  text-align: center;
+}
+
+.wrapper-bottom .main .third-section .third-section-left ul li:nth-child(4) {
+  color: #ed1a2e;
+}
+
+.wrapper-bottom .main .second-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6fr 6fr;
+      grid-template-columns: 6fr 6fr;
+}
+
+.wrapper-bottom .main .second-section .second-section-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper-bottom .main .second-section .second-section-right ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: chartreuse;
+}
+
+.wrapper-bottom .main .second-section .second-section-right ul li:nth-child(1) {
+  color: #ed1a2e;
+}
+
+.wrapper-bottom .main .second-section .second-section-right ul li:nth-child(2) {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.wrapper-bottom .main .second-section .second-section-right ul li:nth-child(3) {
+  color: black;
+  text-align: center;
+}
+
+.wrapper-bottom .main .second-section .second-section-right ul li:nth-child(4) {
+  color: #ed1a2e;
+}
+
+.wrapper-bottom .footer .first-section .first-section-left ul {
+  list-style: none;
+}
+
+.wrapper-bottom .footer .first-section .first-section-left ul li:nth-child(1) {
+  color: #ed1a2e;
+}
+
+.wrapper-bottom .footer .first-section .first-section-left ul li:nth-child(2) {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-top: 5%;
+}
+
+.wrapper-bottom .footer .first-section .first-section-right .testo {
+  margin-top: 5%;
 }
 /*# sourceMappingURL=style.css.map */

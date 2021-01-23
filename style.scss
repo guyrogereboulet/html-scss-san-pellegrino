@@ -15,7 +15,8 @@ $wrapper-color-top:#060c3e;
 
 .wrapper {
     max-width:$mockup-width;
-    background-color: $wrapper-color-top;
+    background-color: yellow;
+    margin: auto;
 
     .container {
         max-width: $container-width;
@@ -31,10 +32,201 @@ $wrapper-color-top:#060c3e;
 
         }
 
+        .menu {
+            .menu-list {
+                li {
+                    color: white;
+                    border: 1px solid white;
+                    padding: 10px;
+                }
+            }
+
+        }
+
+    }
+}
+
+.wrapper-bottom {
+
+    border: 1px solid black;
+    max-width: $container-width;
+    margin: auto;
+
+
+    .menu-bottom {
+
+        .menu-list-bottom {
+            li {
+                color: black;
+                border: 1px solid black;
+                padding: 5px;
+
+            }
+        }
+
+    }
+
+    .main {
+        .first-section {
+            .first-section-left {
+
+                ul {
+                    list-style: none;
+
+                    li:nth-child(1) {
+                        color:$ctaColor;
+                    }
+
+                    li:nth-child(2) {
+                        color: black;
+                        font-family: $fontTitle;
+                        font-size: 2rem;
+                        margin-top: 5%;
+                    }
+                }
+
+
+
+            }
+
+
+            .first-section-right {
+
+               .testo{
+                   margin-top: 5%;
+               }
+            }
+        }
+
+
+        .third-section {
+
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+
+            .third-section-left {
+                display: flex;
+                ul {
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    background-color: chartreuse;
+
+                        li:nth-child(1) {
+                            color: $ctaColor;
+                        }
+
+                        li:nth-child(2) {
+                            color: black;
+                            font-family: $fontTitle;
+                            font-size: 2rem;
+                            margin-top: 5%;
+                            text-align: center;
+                        }
+                        
+                        li:nth-child(3) {
+                            color: black;
+                            text-align: center;
+                        }
+                        li:nth-child(4) {
+                            color: $ctaColor;
+                        }
+                    
+
+
+
+                }
+            }
+
+        }
+
+
+
+         .second-section {
+
+             display: grid;
+             grid-template-columns: 6fr 6fr;
+
+             .second-section-right {
+                 display: flex;
+
+                 ul {
+                     list-style: none;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: space-around;
+                     align-items: center;
+                     background-color: chartreuse;
+
+                     li:nth-child(1) {
+                         color: $ctaColor;
+                     }
+
+                     li:nth-child(2) {
+                         color: black;
+                         font-family: $fontTitle;
+                         font-size: 2rem;
+                         margin-top: 5%;
+                         text-align: center;
+                     }
+
+                     li:nth-child(3) {
+                         color: black;
+                         text-align: center;
+                     }
+
+                     li:nth-child(4) {
+                         color: $ctaColor;
+                     }
 
 
 
 
+                 }
+             }
+
+         }
+
+
+        
+
+    }
+
+
+    .footer {
+
+        .first-section {
+            .first-section-left {
+
+                ul {
+                    list-style: none;
+
+                    li:nth-child(1) {
+                        color: $ctaColor;
+                    }
+
+                    li:nth-child(2) {
+                        color: black;
+                        font-family: $fontTitle;
+                        font-size: 2rem;
+                        margin-top: 5%;
+                    }
+                }
+
+
+
+            }
+
+
+            .first-section-right {
+
+                .testo {
+                    margin-top: 5%;
+                }
+            }
+        }
 
 
 
@@ -42,4 +234,21 @@ $wrapper-color-top:#060c3e;
 
     }
 
+    
+
 }
+
+        
+
+
+
+
+
+
+
+
+
+
+    
+
+
