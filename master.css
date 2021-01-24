@@ -36,6 +36,7 @@
 
 .jumbo-img {
     grid-column: 2;
+    width: 100%;
 }
 
 .first-section {
@@ -57,4 +58,22 @@
 .second-section {
     display: grid;
     grid-template-columns: 6fr 6fr;
+}
+
+.footer-center {
+    display: grid;
+    grid-template-columns: 1fr 3.33fr 3.33fr 3.33fr 1fr;
+    grid-column-gap: 18px;
+}
+
+.footer-center-left {
+    grid-column: 2;
+}
+
+.footer-center-center {
+    grid-column: 3;
+}
+
+.footer-center-right {
+    grid-column: 4;
 }

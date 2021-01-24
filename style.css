@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 1440px;
+  max-width: 100%;
   background-color: yellow;
   margin: auto;
 }
@@ -157,22 +157,156 @@
   color: #ed1a2e;
 }
 
-.wrapper-bottom .footer .first-section .first-section-left ul {
+.wrapper-bottom .footer-top {
+  background-color: darkblue;
+  padding-top: 5%;
+}
+
+.wrapper-bottom .footer-top .first-section .first-section-left ul {
   list-style: none;
 }
 
-.wrapper-bottom .footer .first-section .first-section-left ul li:nth-child(1) {
+.wrapper-bottom .footer-top .first-section .first-section-left ul li:nth-child(1) {
   color: #ed1a2e;
 }
 
-.wrapper-bottom .footer .first-section .first-section-left ul li:nth-child(2) {
+.wrapper-bottom .footer-top .first-section .first-section-left ul li:nth-child(2) {
   color: black;
   font-family: "Playfair Display", serif;
   font-size: 2rem;
   margin-top: 5%;
 }
 
-.wrapper-bottom .footer .first-section .first-section-right .testo {
+.wrapper-bottom .footer-top .first-section .first-section-right .testo {
   margin-top: 5%;
+}
+
+.wrapper-bottom .footer-center {
+  height: 100%;
+  margin-bottom: -2%;
+}
+
+.wrapper-bottom .footer-center .footer-center-left {
+  background-color: white;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper-bottom .footer-center .footer-center-left img {
+  height: 100px;
+  border: 1px solid black;
+}
+
+.wrapper-bottom .footer-center .footer-center-center {
+  background-color: white;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper-bottom .footer-center .footer-center-center img {
+  height: 150px;
+  border: 1px solid black;
+}
+
+.wrapper-bottom .footer-center .footer-center-right {
+  background-color: white;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper-bottom .footer-center .footer-center-right img {
+  height: 150px;
+  border: 1px solid black;
+}
+
+.wrapper-bottom .footer-center-bottom {
+  height: 50px;
+  background-color: darkgrey;
+}
+
+.wrapper-bottom .footer-bottom ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper-bottom .credits {
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper-bottom .credits .credits-left img {
+  height: 50px;
+}
+
+.wrapper-bottom .credits .credits-right {
+  background-color: rosybrown;
+}
+
+.wrapper-bottom .credits .credits-right ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper-bottom .credits .credits-right ul li {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
