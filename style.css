@@ -201,7 +201,7 @@
 }
 
 .wrapper-bottom .footer-center .footer-center-left img {
-  height: 100px;
+  width: 100%;
   border: 1px solid black;
 }
 
@@ -220,7 +220,7 @@
 }
 
 .wrapper-bottom .footer-center .footer-center-center img {
-  height: 150px;
+  width: 100%;
   border: 1px solid black;
 }
 
@@ -239,7 +239,7 @@
 }
 
 .wrapper-bottom .footer-center .footer-center-right img {
-  height: 150px;
+  width: 100%;
   border: 1px solid black;
 }
 
@@ -283,7 +283,7 @@
 }
 
 .wrapper-bottom .credits .credits-left img {
-  height: 50px;
+  width: 100%;
 }
 
 .wrapper-bottom .credits .credits-right {

@@ -60,6 +60,17 @@
     grid-template-columns: 6fr 6fr;
 }
 
+.second-section-left img{
+    width: 100%;
+
+}
+
+.third-section-right img{
+    width: 100%;
+
+
+}
+
 .footer-center {
     display: grid;
     grid-template-columns: 1fr 3.33fr 3.33fr 3.33fr 1fr;

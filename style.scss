@@ -253,7 +253,7 @@ $wrapper-color-top:#060c3e;
             align-items: center;
             justify-content: center;
             img {
-                height: 100px;
+                width: 100%;
                 border: 1px solid black;
             }
         }
@@ -266,7 +266,7 @@ $wrapper-color-top:#060c3e;
             justify-content: center;
             
             img {
-                height: 150px;
+                width: 100%;
                 border: 1px solid black;
             }
         }
@@ -278,7 +278,7 @@ $wrapper-color-top:#060c3e;
             align-items: center;
             justify-content: center;
             img {
-                height: 150px;
+                width: 100%;
                 border: 1px solid black;
             }
         }
@@ -309,7 +309,7 @@ $wrapper-color-top:#060c3e;
 
         .credits-left{
             img{
-                height:50px;
+                width: 100%;
             }
         }
 
